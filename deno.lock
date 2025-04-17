@@ -1,0 +1,49 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@nashaddams/amqp@^1.1.0": "1.1.0",
+    "jsr:@std/assert@1": "1.0.12",
+    "jsr:@std/bytes@^1.0.2": "1.0.5",
+    "jsr:@std/internal@^1.0.6": "1.0.6",
+    "jsr:@std/io@0.225.0": "0.225.0",
+    "npm:dotenv@^16.5.0": "16.5.0"
+  },
+  "jsr": {
+    "@nashaddams/amqp@1.1.0": {
+      "integrity": "391d5310f3dea4e26c1c00be57d445c004f5463712a365385529c48d3b77453b",
+      "dependencies": [
+        "jsr:@std/io"
+      ]
+    },
+    "@std/assert@1.0.12": {
+      "integrity": "08009f0926dda9cbd8bef3a35d3b6a4b964b0ab5c3e140a4e0351fbf34af5b9a",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/bytes@1.0.5": {
+      "integrity": "4465dd739d7963d964c809202ebea6d5c6b8e3829ef25c6a224290fbb8a1021e"
+    },
+    "@std/internal@1.0.6": {
+      "integrity": "9533b128f230f73bd209408bb07a4b12f8d4255ab2a4d22a1fd6d87304aca9a4"
+    },
+    "@std/io@0.225.0": {
+      "integrity": "c1db7c5e5a231629b32d64b9a53139445b2ca640d828c26bf23e1c55f8c079b3",
+      "dependencies": [
+        "jsr:@std/bytes"
+      ]
+    }
+  },
+  "npm": {
+    "dotenv@16.5.0": {
+      "integrity": "sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@nashaddams/amqp@^1.1.0",
+      "jsr:@std/assert@1",
+      "npm:dotenv@^16.5.0"
+    ]
+  }
+}
